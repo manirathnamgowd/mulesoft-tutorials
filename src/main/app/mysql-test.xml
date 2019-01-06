@@ -27,7 +27,7 @@ http://www.mulesoft.org/schema/mule/batch http://www.mulesoft.org/schema/mule/ba
             </batch:step>
         </batch:process-records>
         <batch:on-complete>
-            <logger level="INFO" doc:name="Logger"/>
+            <logger level="INFO"  doc:name="Logger"/>
         </batch:on-complete>
     </batch:job>
 </mule>
